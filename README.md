@@ -13,7 +13,7 @@ También con la herramienta curl:
 
 curl --location --request GET 'http://localhost:8080/?value=50' 
 
-el resultado es un json estilo {"result" : <valor resultado> }
+el resultado es un json estilo {"result":12586269025}
 
 El algoritmo para el cálculo de la función de fibonacci es ampliamente conocido, 
 para esta solución se ha utilizado la versión de https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/, 

@@ -4,6 +4,7 @@ Esta es aplicación es un sencillo servicio rest para calcular el n-esimo valor 
 
 Uso:
 Compilar con gradle: `./gradlew build`
+
 Ejecutar el servicio rest: `./gradlew bootRun`
 
 Se puede probar mediante el navegador en la url: http://localhost:8080/?value=5000

@@ -1,0 +1,25 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.2.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+}
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.github.davidbolet.fibonacciApi.Application'
+sourceSets.main.java.srcDirs = ['src/main']
+sourceSets.test.java.srcDirs = ['src/test']
+
+group = 'com.github.davidbolet.fibonacciApi'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'junit:junit:4.12'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+}
